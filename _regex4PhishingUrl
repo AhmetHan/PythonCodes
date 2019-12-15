@@ -1,0 +1,17 @@
+-> find url contains targeted phishing url domain redirecting different landing page 
+
+
+example regex : https?:\/\/(www\.)?(\w+)\.(com|net|ml|gov)\/\?id=[a-zA-Z.-]+@\w+\.(com|net)\.(tr)?
+
+Sample: targeted phishing campaign urls
+
+http://www.micromsoft.com/?id=ahmethan@ahmethan.com.tr
+https://www.micromsoft.com/?id=ahmethan@ahmethan.com.tr
+https://micromsoft.com/?id=ahmethan@ahmethan.com.tr
+https://micromsoft.ml/?id=AHmetHan@ahmet.com.tr
+http://micromsoft.gov/?id=ahmet.han@ahmethan.com.tr
+http://micromsoft.net/?id=ahmet-han@ahmethan.com.tr
+http://micromsoft.net/?id=ahmet-han@ahmethan.com.tr
+
+ref:
+https://regex101.com/r/ZpA7iq/1
